@@ -472,6 +472,23 @@ h3 {
 /**********************/
 /*     Contact us     */
 /**********************/
+
+.contact button {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    padding: 0.6rem 1.4rem;
+    color: #161515;
+    background: #18cdca;
+    border: 2px solid #18cdca;
+    border-radius: 2rem;
+    transition: 0.2s ease-in-out;
+}
+.contact button:hover {
+    color: #18cdca;
+    background: transparent;
+    cursor: pointer;
+}
 .form_wrapper {
     margin-top: 4rem;
     display: flex;
